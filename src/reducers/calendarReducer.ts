@@ -33,10 +33,13 @@ type ThunkResult<R> = ThunkAction<
 >;
 
 export const fetchCalendar = (): ThunkResult<void> => {
+  const calendarId =
+    "nology.io_5smheaincm2skd1tcmvv7m37d8@group.calendar.google.com";
+  const apiKey = "AIzaSyCHZijg8vL_s_cSjdz3Pc-mOz4aswss9WU";
   return dispatch => {
     dispatch(getCalendarEvents());
     fetch(
-      "https://www.googleapis.com/calendar/v3/calendars/nology.io_5smheaincm2skd1tcmvv7m37d8@group.calendar.google.com/events?maxResults=20&key=AIzaSyCHZijg8vL_s_cSjdz3Pc-mOz4aswss9WU"
+      `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?maxResults=20&key=${apiKey}`
     )
       .then(res => res.json())
       .then(data => dispatch(getCalendarEventsSuccess(data.items)))
