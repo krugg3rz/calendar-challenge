@@ -12,10 +12,10 @@ As a Keen Interpretive Dance Institute Enthusiast (Kidie) I want to be able to s
 
 #### Must haves
 
-As a Kidie I want to see the key information for each calendar event so that I know an events title, description, start date/time and end date/time.
-As a Kidie I want to be able to filter the events by date range so that I can target events that I know I am able to attend.
-As a Kidie I want to be able to filter events by searching the text in the event description so that I can find events that match my key interests.
+1. As a Kidie I want to see the key information for each calendar event so that I know an events title, description, start date/time and end date/time.
+2. As a Kidie I want to be able to filter the events by date range so that I can target events that I know I am able to attend.
+3. As a Kidie I want to be able to filter events by searching the text in the event description so that I can find events that match my key interests.
 
 #### Should haves
 
-As a Kidie I want to be able to mark an event visually so that I can highlight the events that I am thinking of attending
+1. As a Kidie I want to be able to mark an event visually so that I can highlight the events that I am thinking of attending
