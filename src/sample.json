@@ -1,0 +1,76 @@
+{
+    "kind": "calendar#events",
+    "etag": "\"p32s9vpuni7vu20g\"",
+    "summary": "test public calendar",
+    "updated": "2019-05-03T10:20:52.739Z",
+    "timeZone": "Europe/London",
+    "accessRole": "reader",
+    "defaultReminders": [],
+    "nextSyncToken": "CLif59eR_-ECEAAYAQ==",
+    "items": [
+        {
+            "kind": "calendar#event",
+            "etag": "\"3113757679016000\"",
+            "id": "4i6bi2c2qjjdab1too59vc9lal",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NGk2YmkyYzJxampkYWIxdG9vNTl2YzlsYWwgbm9sb2d5LmlvXzVzbWhlYWluY20yc2tkMXRjbXZ2N20zN2Q4QGc",
+            "created": "2019-05-03T10:20:39.000Z",
+            "updated": "2019-05-03T10:20:39.508Z",
+            "summary": "Bank holiday",
+            "creator": {
+                "email": "liam@nology.io"
+            },
+            "organizer": {
+                "email": "nology.io_5smheaincm2skd1tcmvv7m37d8@group.calendar.google.com",
+                "displayName": "test public calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2019-05-06"
+            },
+            "end": {
+                "date": "2019-05-07"
+            },
+            "transparency": "transparent",
+            "iCalUID": "4i6bi2c2qjjdab1too59vc9lal@google.com",
+            "sequence": 0,
+            "extendedProperties": {
+                "private": {
+                    "everyoneDeclinedDismissed": "-1"
+                }
+            }
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3113757705478000\"",
+            "id": "1jqm9c5pt41kfl42vggujglvr6",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=MWpxbTljNXB0NDFrZmw0MnZnZ3VqZ2x2cjYgbm9sb2d5LmlvXzVzbWhlYWluY20yc2tkMXRjbXZ2N20zN2Q4QGc",
+            "created": "2019-05-03T10:20:52.000Z",
+            "updated": "2019-05-03T10:20:52.739Z",
+            "summary": "Start work on Calendar App",
+            "creator": {
+                "email": "liam@nology.io"
+            },
+            "organizer": {
+                "email": "nology.io_5smheaincm2skd1tcmvv7m37d8@group.calendar.google.com",
+                "displayName": "test public calendar",
+                "self": true
+            },
+            "start": {
+                "date": "2019-05-07"
+            },
+            "end": {
+                "date": "2019-05-08"
+            },
+            "transparency": "transparent",
+            "iCalUID": "1jqm9c5pt41kfl42vggujglvr6@google.com",
+            "sequence": 0,
+            "extendedProperties": {
+                "private": {
+                    "everyoneDeclinedDismissed": "-1"
+                }
+            }
+        }
+    ]
+}
