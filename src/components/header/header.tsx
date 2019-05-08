@@ -1,5 +1,6 @@
 import * as React from "react";
 import styles from "./header.module.scss";
+import SearchBar from "../searchBar/searchBar";
 
 export interface IProps {}
 
@@ -13,6 +14,7 @@ class Header extends React.Component<IProps, IState> {
         <h1 className={styles.headerTitle}>
           Interpretive Dance Institute&trade;
         </h1>
+        {/* <SearchBar /> */}
       </section>
     );
   }
