@@ -2,11 +2,15 @@ import { ThunkAction } from "redux-thunk";
 
 // ICalendarEvents interface
 export interface ICalendarEvents {
-  items: {
-    summary: string;
-    start: Date;
-    end: Date;
-    creator: string;
+  summary: string;
+  organizer: {
+    displayName: string;
+  };
+  start: {
+    date: string;
+  };
+  end: {
+    date: string;
   };
 }
 
