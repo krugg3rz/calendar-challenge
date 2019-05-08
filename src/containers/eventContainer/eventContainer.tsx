@@ -17,8 +17,6 @@ export interface IStateProps {
 export interface IState {}
 
 class EventContainer extends React.Component<IOwnProps & IStateProps, IState> {
-  // state = { :  }
-
   public componentDidMount() {
     this.props.fetchCalendar();
   }

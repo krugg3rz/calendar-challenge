@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Component } from "react";
 import styles from "./searchBar.module.scss";
 
 export interface IProps {
@@ -8,19 +9,18 @@ export interface IProps {
 
 export interface IState {}
 
-class SearchBar extends React.Component<IProps, IState> {
+class SearchBar extends Component {
   public render() {
     return (
       <input
         className={styles.searchBar}
-        placeholder="search criteria"
-        value={this.props.searchText}
-        onChange={this.onChange}
+        type="text"
+        onChange={this.onTextChange}
       />
     );
   }
 
-  private onChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
+  public onTextChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
     this.props.onSearchTextChange(event.target.value);
   };
 }
