@@ -14,10 +14,9 @@ class Event extends React.Component<IProps, IState> {
     return (
       <section>
         <article className={styles.eventCard}>
-          <h1>{this.props.event.organizer.displayName}</h1>
-          <h2>{this.props.event.summary}</h2>
-          <h3>{this.props.event.start.date}</h3>
-          <h3>{this.props.event.end.date}</h3>
+          <h1>{this.props.event.summary}</h1>
+          <p>Starts</p>
+          <h2>{this.props.event.start.date}</h2>
         </article>
       </section>
     );

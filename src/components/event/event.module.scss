@@ -1,7 +1,11 @@
 .eventCard {
-  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   width: 200px;
-  background-color: red;
+  background-color: rgb(255, 123, 0);
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -9,4 +13,9 @@
 
 h1 {
   font-size: 20px;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: -10px;
 }

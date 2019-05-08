@@ -3,6 +3,7 @@ import Event from "../../components/event/event";
 import { ICalendarEvents, fetchCalendar } from "../../reducers/calendarReducer";
 import { IStore } from "../../reducers";
 import { connect } from "react-redux";
+import styles from "./eventContainer.module.scss";
 
 export interface IOwnProps {
   // event: ICalendarEvents;
@@ -24,7 +25,7 @@ class EventContainer extends React.Component<IOwnProps & IStateProps, IState> {
 
   public render() {
     return (
-      <div>
+      <div className={styles.eventContainer}>
         {this.props.calendarEvents.map((event, index) => (
           <Event event={event} key={index} />
         ))}
