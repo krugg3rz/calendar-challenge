@@ -17,6 +17,7 @@ class Header extends React.Component<IProps, IState> {
         <h1 className={styles.headerTitle}>
           Interpretive Dance Institute&trade;
         </h1>
+        <h2 className={styles.headerSubTitle}>Upcoming Events</h2>
         {/* <SearchBar /> */}
       </section>
     );
